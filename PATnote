@@ -7,7 +7,7 @@ String str[] = str1.split(“”);
 字符串数组类型数字转换为 int 整型数组：
 
 String str = "100 200 33 55";//字符串
-String[] temp = str.spli(" ");//以空格拆分字符串
+String[] temp = str.split(“ ");//以空格拆分字符串
 int[] result = new int[temp.length];//int类型数组
 for(int i=0;i<temp.length;i++)
 {
